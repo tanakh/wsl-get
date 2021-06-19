@@ -4,6 +4,14 @@ version = "0.1.0"
 authors = ["Hideyuki Tanaka <tanaka.hideyuki@gmail.com>"]
 edition = "2018"
 
+description = "A command line tool to install any Linux distribution on WSL2."
+repository = "https://github.com/tanakh/wsl-get"
+license = "MIT"
+readme = "README.md"
+
+categories = ["command-line-utilities"]
+keywords = ["cli", "windows"]
+
 [dependencies]
 anyhow = "1.0.41"
 argopt = "0.1.1"
